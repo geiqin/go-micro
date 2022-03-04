@@ -1,5 +1,6 @@
 package grpc
 
+/*
 import (
 	"context"
 	"net"
@@ -110,3 +111,4 @@ func TestGRPCClient(t *testing.T) {
 	}
 
 }
+*/

@@ -3,6 +3,7 @@ package certmagic
 
 import (
 	"crypto/tls"
+	"log"
 	"math/rand"
 	"net"
 	"time"
@@ -20,8 +21,10 @@ type certmagicProvider struct {
 func (c *certmagicProvider) setup() {
 	certmagic.DefaultACME.CA = c.opts.CA
 	if c.opts.ChallengeProvider != nil {
-		// Enabling DNS Challenge disables the other challenges
-		certmagic.DefaultACME.DNSProvider = c.opts.ChallengeProvider
+		//geiqin modify
+		log.Fatal("certmagic.DefaultACME.DNSProvider = c.opts.ChallengeProvider")
+		// Enabling DNS Challenge disables the other
+		//certmagic.DefaultACME.DNSProvider = c.opts.ChallengeProvider
 	}
 	if c.opts.OnDemand {
 		certmagic.Default.OnDemand = new(certmagic.OnDemandConfig)
