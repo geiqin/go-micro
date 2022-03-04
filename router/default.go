@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/geiqin/go-micro/logger"
+	"github.com/geiqin/go-micro/registry"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
 )
 
 var (

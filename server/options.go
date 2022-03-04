@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/geiqin/go-micro/auth"
+	"github.com/geiqin/go-micro/broker"
+	"github.com/geiqin/go-micro/codec"
+	"github.com/geiqin/go-micro/debug/trace"
+	"github.com/geiqin/go-micro/registry"
+	"github.com/geiqin/go-micro/transport"
 )
 
 type Options struct {

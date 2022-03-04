@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/geiqin/go-micro/registry"
 )
 
 type testHandler struct{}

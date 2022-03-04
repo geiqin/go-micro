@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/geiqin/go-micro/logger"
+	"github.com/geiqin/go-micro/runtime/local/git"
 	"github.com/hpcloud/tail"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime/local/git"
 )
 
 // defaultNamespace to use if not provided as an option

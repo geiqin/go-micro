@@ -17,14 +17,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/geiqin/go-micro/codec/json"
+	merr "github.com/geiqin/go-micro/errors"
+	"github.com/geiqin/go-micro/registry"
+	"github.com/geiqin/go-micro/registry/cache"
+	maddr "github.com/geiqin/go-micro/util/addr"
+	mnet "github.com/geiqin/go-micro/util/net"
+	mls "github.com/geiqin/go-micro/util/tls"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/codec/json"
-	merr "github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/cache"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
 	"golang.org/x/net/http2"
 )
 

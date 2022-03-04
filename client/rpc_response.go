@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/geiqin/go-micro/codec"
+	"github.com/geiqin/go-micro/transport"
 )
 
 type rpcResponse struct {

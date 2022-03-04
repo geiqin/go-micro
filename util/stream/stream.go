@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/geiqin/go-micro/client"
+	"github.com/geiqin/go-micro/codec"
+	"github.com/geiqin/go-micro/metadata"
+	"github.com/geiqin/go-micro/server"
 )
 
 type Stream interface {

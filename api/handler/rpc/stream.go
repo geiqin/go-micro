@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/geiqin/go-micro/api"
+	"github.com/geiqin/go-micro/client"
+	"github.com/geiqin/go-micro/client/selector"
+	raw "github.com/geiqin/go-micro/codec/bytes"
+	"github.com/geiqin/go-micro/logger"
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	raw "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/logger"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

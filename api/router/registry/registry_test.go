@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/geiqin/go-micro/registry"
 	"github.com/stretchr/testify/assert"
 )
 

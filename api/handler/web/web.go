@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/api/handler"
-	"github.com/micro/go-micro/v2/client/selector"
+	"github.com/geiqin/go-micro/api"
+	"github.com/geiqin/go-micro/api/handler"
+	"github.com/geiqin/go-micro/client/selector"
 )
 
 const (

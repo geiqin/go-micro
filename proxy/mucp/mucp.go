@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/proxy"
-	"github.com/micro/go-micro/v2/router"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/geiqin/go-micro/client"
+	"github.com/geiqin/go-micro/client/selector"
+	"github.com/geiqin/go-micro/codec"
+	"github.com/geiqin/go-micro/codec/bytes"
+	"github.com/geiqin/go-micro/errors"
+	"github.com/geiqin/go-micro/logger"
+	"github.com/geiqin/go-micro/metadata"
+	"github.com/geiqin/go-micro/proxy"
+	"github.com/geiqin/go-micro/router"
+	"github.com/geiqin/go-micro/server"
 )
 
 // Proxy will transparently proxy requests to an endpoint.

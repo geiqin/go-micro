@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/geiqin/go-micro/logger"
+	"github.com/geiqin/go-micro/transport"
 )
 
 // session is our pseudo session for transport.Socket
