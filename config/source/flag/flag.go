@@ -3,8 +3,8 @@ package flag
 import (
 	"errors"
 	"flag"
-	"github.com/imdario/mergo"
 	"github.com/geiqin/go-micro/config/source"
+	"github.com/imdario/mergo"
 	"strings"
 	"time"
 )

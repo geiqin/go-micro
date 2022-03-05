@@ -5,8 +5,8 @@ import (
 	"errors"
 	"sync"
 	"time"
-
-	cetcd "github.com/coreos/etcd/clientv3"
+	cetcd "go.etcd.io/etcd/client/v3"
+	//cetcd "github.com/coreos/etcd/clientv3"
 	"github.com/geiqin/go-micro/config/source"
 )
 

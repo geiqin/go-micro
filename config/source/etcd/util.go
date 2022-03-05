@@ -1,9 +1,9 @@
 package etcd
 
 import (
+	"go.etcd.io/etcd/client/v3"
 	"strings"
-
-	"github.com/coreos/etcd/clientv3"
+	//"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/geiqin/go-micro/config/encoder"
 )

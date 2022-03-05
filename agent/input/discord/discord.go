@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/micro/cli/v2"
 	"github.com/geiqin/go-micro/agent/input"
+	"github.com/micro/cli/v2"
 )
 
 func init() {

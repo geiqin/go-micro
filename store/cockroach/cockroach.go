@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lib/pq"
 	"github.com/geiqin/go-micro/logger"
 	"github.com/geiqin/go-micro/store"
+	"github.com/lib/pq"
 	"github.com/pkg/errors"
 )
 
